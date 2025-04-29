@@ -1,0 +1,10 @@
+numeric_vector<-c(1,2,3,4,5)
+cat("Numeric vector:",numeric_vector,"\n")
+character_vector<-c("apple","banana","orange","grape")
+cat("Character vector:",character_vector,"\n")
+sequence_vector<-1:5
+cat("Sequence vector (using colon operator):",sequence_vector,"\n")
+seq_vecor<-seq(from=1,to=10,by=2)
+cat("sequence vector (using seq() function):",seq_vecor,"\n")
+len_vector<-seq_len(5)
+cat("Sequence vector (using seq_len()function):",len_vector,"\n")
